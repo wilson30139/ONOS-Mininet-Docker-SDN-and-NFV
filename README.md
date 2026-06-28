@@ -41,3 +41,7 @@
 - The SDN controller makes centralized routing decisions.
 - Switches forward packets based on installed flow rules.
 - It abstracts the physical network into a logically unified routing system.
+<p align="center">
+  <img width="1886" height="931" alt="Screenshot 2026-06-28 182223" src="https://github.com/user-attachments/assets/bedb530c-33d4-422c-ad0a-cee8b91690d3" />
+  <strong>Figure 1: Final Project Network Topology</strong>
+</p>
