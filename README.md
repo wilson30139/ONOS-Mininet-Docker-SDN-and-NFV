@@ -1,5 +1,5 @@
-## Course Name
-- Software Defined Networks and Network Function Virtualization
+## Course
+- Name: Software Defined Networks and Network Function Virtualization
 - Instructor: Chien-Chao Tseng
 
 ## Project 1 and 2
