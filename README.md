@@ -1,36 +1,36 @@
-## [Course](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=112&Sem=1&CrsNo=535607&lang=en-us)
+# [Course](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=112&Sem=1&CrsNo=535607&lang=en-us)
 - Name: Software Defined Networks and Network Function Virtualization
 - Instructor: Chien-Chao Tseng Professor
 
-## Introduction
+# Introduction
 This repository contains a collection of network emulation projects built with ONOS, Mininet, and Docker. It provides a programmable networking environment for studying Software-Defined Networking (SDN) and Network Functions Virtualization (NFV) through virtual network topologies and software-based network functions.<br><br>
 The projects cover a variety of SDN concepts and applications, including MAC learning bridges, DHCP services, Proxy ARP, software routers, virtual routers, and containerized network functions. Together, they demonstrate how ONOS controllers, Mininet-based topologies, and Docker containers can be integrated to design, implement, and evaluate modern programmable networks.
 
-## Project 1 and 2
+# Project 1 and 2
 - Project 1 and 2 cover the installation of ONOS and Mininet.
 - They include the setup of the experiment environment used in later projects.
 - They invovle basic observations of the OpenFlow protocol and Flow Rule installation.
 - Since these topics are foundational, they are not included in detail in this repository.
 
-## [Project 3: SDN-enabled Learning Bridge (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%203)
+# [Project 3: SDN-enabled Learning Bridge (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%203)
 - An SDN-enabled Learning Bridge shifts MAC address learning from traditional switches to a centralized SDN controller.
 - It shifts packet forwarding decisions from trational switches to the SDN controller.
 - The switch is responsible only for forwarding packets based on flow rules installed by the controller.
 - The controller manages both learning and forwarding behavior in a centralized manner.
 
-## [Project 4: Unicast DHCP Application (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%204)
+# [Project 4: Unicast DHCP Application (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%204)
 - A Unicast DHCP Application uses the Dynamic Host Configuration Protocol (DHCP) to dynamically design IP address to hosts.
 - It uses unicast transmission during part or all of the DHCP communication process.
 - It reduces reliance on broadcast-based DHCP message exchange when possible.
 - It is typically used to improve efficiency in DHCP communication.
 
-## [Project 5: Proxy ARP (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%205)
+# [Project 5: Proxy ARP (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%205)
 - In this project, the SDN controller acts as a Proxy ARP entity.
 - The controller responds to ARP requests on behalf of destination hosts.
 - It enables communication without requring direct ARP resolution between hosts.
 - The controller effectively handles ARP reply behavior to simplify host communication.
 
-## [Project 6: Software Router and Containerization (NFV)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%206)
+# [Project 6: Software Router and Containerization (NFV)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%206)
 - Software Router and Containerization refers to deploying a software-based router inside containers.
 - It enables flexible deployment of routing functions.
 - It improves resource utilization efficiency.
@@ -42,7 +42,7 @@ The projects cover a variety of SDN concepts and applications, including MAC lea
 </p>
 
 
-## [Final Project: SDN Network as Virtual Router (SDN and NFV)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Final%20Project)
+# [Final Project: SDN Network as Virtual Router](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Final%20Project)
 - SDN Network as Virtual Router is an SDN architecture.
 - The entire network operates as a single virtual router.
 - The SDN controller makes centralized routing decisions.
