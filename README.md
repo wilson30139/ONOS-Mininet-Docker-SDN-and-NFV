@@ -32,6 +32,11 @@
 - It improves resource utilization efficiency.
 - It supports scalable network services.
 - It is commonly used in modern cloud-native and SDN environments.
+<p align="center">
+  <img width="1390" height="633" alt="Project 6 Network Topology" src="https://github.com/user-attachments/assets/4290fa2f-304c-412e-a601-9d9edf51101f" />
+  <strong>Figure 1: Project 6 Network Topology</strong>
+</p>
+
 
 ## [Final Project: SDN Network as Virtual Router (SDN and NFV)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Final%20Project)
 - SDN Network as Virtual Router is an SDN architecture.
@@ -41,5 +46,5 @@
 - It abstracts the physical network into a logically unified routing system.
 <p align="center">
   <img width="1886" height="931" alt="Screenshot 2026-06-28 182223" src="https://github.com/user-attachments/assets/bedb530c-33d4-422c-ad0a-cee8b91690d3" />
-  <strong>Figure 1: Final Project Network Topology</strong>
+  <strong>Figure 2: Final Project Network Topology</strong>
 </p>
