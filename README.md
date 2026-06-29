@@ -1,6 +1,6 @@
 ## Course
 - Name: Software Defined Networks and Network Function Virtualization
-- Instructor: Chien-Chao Tseng
+- Instructor: Chien-Chao Tseng Professor
 
 ## Project 1 and 2
 - Project 1 and 2 cover the installation of ONOS and Mininet.
