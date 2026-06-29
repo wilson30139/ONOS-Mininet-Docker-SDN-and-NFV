@@ -1,10 +1,31 @@
+# Network Emulation
+
 ## [Course](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=112&Sem=1&CrsNo=535607&lang=en-us)
 - Name: Software Defined Networks and Network Function Virtualization
-- Instructor: Chien-Chao Tseng Professor
+- Instructor: Professor Chien-Chao Tseng Professor
 
 ## Introduction
-This repository contains a collection of network emulation projects built with ONOS, Mininet, and Docker. It provides a programmable networking environment for studying Software-Defined Networking (SDN) and Network Functions Virtualization (NFV) through virtual network topologies and software-based network functions.<br><br>
-The projects cover a variety of SDN concepts and applications, including MAC learning bridges, DHCP services, Proxy ARP, software routers, virtual routers, and containerized network functions. Together, they demonstrate how ONOS controllers, Mininet-based topologies, and Docker containers can be integrated to design, implement, and evaluate modern programmable networks.
+This repository contains a collection of network emulation projects developed using ONOS, Mininet, and Docker. It provides a programmable networking environment for exploring Software-Defined Networking (SDN) and Network Functions Virtualization (NFV) through virtual network topologies and software-based network functions.<br><br>
+The projects demonstrates the implementation of SDN applications, OpenFlow-based packet forwarding, software routers, virtual routers, and containerized network functions, highlighting how SDN controllers and virtualized technologies can be integrated in modern network architectures.
+
+## Technologies
+- ONOS
+- Mininet
+- Docker
+- OpenFlow
+- SDN
+- NFV
+
+## Overview
+| Project | Topic | Category |
+|----------|-------|----------|
+| Project 1 | ONOS and Mininet Installation | SDN |
+| Project 2 | OpenFlow Protocol Observation and Flow Rule Installation | SDN |
+| [Project 3](#project-3-sdn-enabled-learning-bridge-sdn) | SDN-enabled Learning Bridge | SDN |
+| Project 4 | Unicast DHCP Application | SDN |
+| Project 5 | Proxy ARP | SDN |
+| Project 6 | Software Router and Containerization | NFV |
+| Final Project | SDN Network as Virtual Router | SDN and NFV |
 
 ## Project 1 and 2
 - Project 1 and 2 cover the installation of ONOS and Mininet.
@@ -41,7 +62,6 @@ The projects cover a variety of SDN concepts and applications, including MAC lea
   <strong>Figure 1: Project 6 Network Topology</strong>
 </p>
 
-
 ## [Final Project: SDN Network as Virtual Router (SDN and NFV)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Final%20Project)
 - SDN Network as Virtual Router is an SDN architecture.
 - The entire network operates as a single virtual router.
@@ -52,3 +72,14 @@ The projects cover a variety of SDN concepts and applications, including MAC lea
   <img width="1886" height="931" alt="Screenshot 2026-06-28 182223" src="https://github.com/user-attachments/assets/bedb530c-33d4-422c-ad0a-cee8b91690d3" />
   <strong>Figure 2: Final Project Network Topology</strong>
 </p>
+
+## Learning Outcomes
+Through these projects, I gained hands-on experience in:
+- Software-Defined Networking (SDN)
+- Network Functions Virtualization (NFV)
+- ONOS controller application development
+- OpenFlow protocol and Flow Rule management
+- Network emulation with Mininet
+- Containerized network functions using Docker
+- Software router deployment
+- Virtual network architecture design
