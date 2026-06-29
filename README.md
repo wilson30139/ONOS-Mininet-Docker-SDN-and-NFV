@@ -2,9 +2,6 @@
 - Name: Software Defined Networks and Network Function Virtualization
 - Instructor: Chien-Chao Tseng Professor
 
-## About
-This repository contains ONOS, Mininet, and Docker-based SDN and NFV projects, covering SDN applications, network emulation, software routers, virtualized functions, and programmable networking.
-
 ## Project 1 and 2
 - Project 1 and 2 cover the installation of ONOS and Mininet.
 - They include the setup of the experiment environment used in later projects.
