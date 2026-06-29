@@ -19,13 +19,13 @@ The projects demonstrates the implementation of SDN applications, OpenFlow-based
 ## Overview
 | Project | Topic | Category |
 |----------|-------|----------|
-| Project 1 | ONOS and Mininet Installation | SDN |
-| Project 2 | OpenFlow Protocol Observation and Flow Rule Installation | SDN |
+| [Project 1](#project-1-and-2) | ONOS and Mininet Installation | SDN |
+| [Project 2](#project-1-and-2) | OpenFlow Protocol Observation and Flow Rule Installation | SDN |
 | [Project 3](#project-3-sdn-enabled-learning-bridge-sdn) | SDN-enabled Learning Bridge | SDN |
-| Project 4 | Unicast DHCP Application | SDN |
-| Project 5 | Proxy ARP | SDN |
-| Project 6 | Software Router and Containerization | NFV |
-| Final Project | SDN Network as Virtual Router | SDN and NFV |
+| [Project 4](#project-4-unicast-dhcp-application-sdn) | Unicast DHCP Application | SDN |
+| [Project 5](#project-5-proxy-arp-sdn) | Proxy ARP | SDN |
+| [Project 6](#project-6-software-router-and-containerization-nfv) | Software Router and Containerization | NFV |
+| [Final Project](#final-project-sdn-network-as-virtual-router-sdn--nfv) | SDN Network as Virtual Router | SDN and NFV |
 
 ## Project 1 and 2
 - Project 1 and 2 cover the installation of ONOS and Mininet.
