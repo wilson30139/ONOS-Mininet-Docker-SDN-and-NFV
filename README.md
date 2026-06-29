@@ -28,46 +28,45 @@ The projects demonstrates the implementation of SDN applications, OpenFlow-based
 | [Final Project](#final-project-sdn-network-as-virtual-router-sdn-and-nfv) | SDN Network as Virtual Router | SDN and NFV |
 
 ## Project 1 and 2
-- Project 1 and 2 cover the installation of ONOS and Mininet.
-- They include the setup of the experiment environment used in later projects.
-- They invovle basic observations of the OpenFlow protocol and Flow Rule installation.
-- Since these topics are foundational, they are not included in detail in this repository.
+- Installed and configured the ONOS controller and Mininet.
+- Built the experimental environment used throughout subsequent projects.
+- Explored the OpenFlow protocol and observed Flow Rule installation.
+- Since these projects focus on foundational setup, they are not included in detail in this repository.
 
 ## [Project 3: SDN-enabled Learning Bridge (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%203)
-- An SDN-enabled Learning Bridge shifts MAC address learning from traditional switches to a centralized SDN controller.
-- It shifts packet forwarding decisions from trational switches to the SDN controller.
-- The switch is responsible only for forwarding packets based on flow rules installed by the controller.
-- The controller manages both learning and forwarding behavior in a centralized manner.
+- Implemented an SDN-enabled learning bridge using ONOS.
+- Centralized MAC address learning in the SDN controller.
+- Installed OpenFlow flow rules dynamically for packet forwarding.
+- Replaced traditional switch-based learning with controller-managed forwarding.
 
 ## [Project 4: Unicast DHCP Application (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%204)
-- A Unicast DHCP Application uses the Dynamic Host Configuration Protocol (DHCP) to dynamically design IP address to hosts.
-- It uses unicast transmission during part or all of the DHCP communication process.
-- It reduces reliance on broadcast-based DHCP message exchange when possible.
-- It is typically used to improve efficiency in DHCP communication.
+- Developed a unicast DHCP application on the ONOS controller.
+- Dynamically assigned IP addresses to hosts using DHCP.
+- Utilized unicast communication to reduce broadcast traffic during DHCP message exchange.
+- Improved the efficiency of DHCP communication within the SDN environment.
 
 ## [Project 5: Proxy ARP (SDN)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%205)
-- In this project, the SDN controller acts as a Proxy ARP entity.
-- The controller responds to ARP requests on behalf of destination hosts.
-- It enables communication without requring direct ARP resolution between hosts.
-- The controller effectively handles ARP reply behavior to simplify host communication.
+- Implemented a Proxy ARP application on the SDN controller.
+- Responded to ARP requests on behalf of destination hosts.
+- Eliminated the need for direct ARP resolution between hosts.
+- Simplified host communication through centralized ARP management.
 
 ## [Project 6: Software Router and Containerization (NFV)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Project%206)
-- Software Router and Containerization refers to deploying a software-based router inside containers.
-- It enables flexible deployment of routing functions.
-- It improves resource utilization efficiency.
-- It supports scalable network services.
-- It is commonly used in modern cloud-native and SDN environments.
+- Deployed a software router using Docker containers.
+- Implemented virtualized routing functions in a containerized environment.
+- Improved deployment flexibility and resource utilization.
+- Demonstrated container-based network function virtualization (NFV).
 <p align="center">
   <img width="1390" height="633" alt="Project 6 Network Topology" src="https://github.com/user-attachments/assets/4290fa2f-304c-412e-a601-9d9edf51101f" />
   <strong>Figure 1: Project 6 Network Topology</strong>
 </p>
 
 ## [Final Project: SDN Network as Virtual Router (SDN and NFV)](https://github.com/wilson30139/ONOS-Mininet-Docker-SDN-and-NFV/tree/main/Final%20Project)
-- SDN Network as Virtual Router is an SDN architecture.
-- The entire network operates as a single virtual router.
-- The SDN controller makes centralized routing decisions.
-- Switches forward packets based on installed flow rules.
-- It abstracts the physical network into a logically unified routing system.
+- Designed an SDN architecture in which the network operates as a single virtual router.
+- Centralized routing decisions in the ONOS controller.
+- Forwarded packets through OpenFlow flow rules installed on switches.
+- Abstracted the physical network into a logically unified routing system.
+- Integrated SDN control with virtualized network functions.
 <p align="center">
   <img width="1886" height="931" alt="Screenshot 2026-06-28 182223" src="https://github.com/user-attachments/assets/bedb530c-33d4-422c-ad0a-cee8b91690d3" />
   <strong>Figure 2: Final Project Network Topology</strong>
