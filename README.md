@@ -5,7 +5,8 @@
 - Instructor: Professor Chien-Chao Tseng Professor
 
 ## Introduction
-This repository contains a collection of network emulation projects developed using ONOS, Mininet, and Docker. It provides a programmable networking environment for exploring Software-Defined Networking (SDN) and Network Functions Virtualization (NFV) through virtual network topologies and software-based network functions.<br><br>
+This repository contains a collection of network emulation projects developed using ONOS, Mininet, and Docker. It provides a programmable networking environment for exploring Software-Defined Networking (SDN) and Network Functions Virtualization (NFV) through virtual network topologies and software-based network functions.
+
 The projects demonstrates the implementation of SDN applications, OpenFlow-based packet forwarding, software routers, virtual routers, and containerized network functions, highlighting how SDN controllers and virtualized technologies can be integrated in modern network architectures.
 
 ## Technologies
